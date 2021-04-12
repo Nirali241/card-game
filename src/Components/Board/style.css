@@ -1,0 +1,28 @@
+.card-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 0.04fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.h1 {
+  text-align: center;
+  color: rgb(61, 17, 17);
+  padding-bottom: 20px;
+}
+button {
+  border: none !important;
+  outline: none !important;
+  font-size: 18px !important;
+  padding: 15px !important;
+  background-color: rgb(61, 17, 17);
+  color: white;
+  border-radius: 1rem;
+}
+.btn_container {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.mt-3 {
+  text-align: center;
+}
